@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import ToggleMode from "./ToggleMode";
+import ToggleMode from "@/components/ui/ToggleMode";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 
